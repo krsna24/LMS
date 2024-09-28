@@ -7,22 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E62D99462C8D883D009337D3 /* LibrarianDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D99452C8D883D009337D3 /* LibrarianDashboardView.swift */; };
+		E62D99482C8D8859009337D3 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D99472C8D8859009337D3 /* Sidebar.swift */; };
+		E62D994A2C8D8879009337D3 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D99492C8D8879009337D3 /* MainContentView.swift */; };
+		E62D994C2C8D8899009337D3 /* LibrarianSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D994B2C8D8899009337D3 /* LibrarianSection.swift */; };
+		E62D994E2C8D88AF009337D3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D994D2C8D88AF009337D3 /* DashboardView.swift */; };
+		E62D99502C8D88C2009337D3 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D994F2C8D88C2009337D3 /* GridView.swift */; };
+		E62D99522C8D892E009337D3 /* BooksManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D99512C8D892E009337D3 /* BooksManagementView.swift */; };
+		E62D99542C8D896E009337D3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D99532C8D896E009337D3 /* Models.swift */; };
+		E62D99562C8D8985009337D3 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D99552C8D8985009337D3 /* BlobView.swift */; };
+		E62D99582C8D8A39009337D3 /* UserManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D99572C8D8A39009337D3 /* UserManagement.swift */; };
+		E62D995C2C8D8B73009337D3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62D995B2C8D8B73009337D3 /* SettingsView.swift */; };
 		E68F043E2C7F557C00C531C2 /* LMSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F043D2C7F557C00C531C2 /* LMSApp.swift */; };
-		E68F04402C7F557C00C531C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F043F2C7F557C00C531C2 /* ContentView.swift */; };
+		E68F04402C7F557C00C531C2 /* ExtraContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F043F2C7F557C00C531C2 /* ExtraContent.swift */; };
 		E68F04452C7F557D00C531C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68F04442C7F557D00C531C2 /* Preview Assets.xcassets */; };
 		E68F04472C7F557D00C531C2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F04462C7F557D00C531C2 /* Persistence.swift */; };
 		E68F044A2C7F557D00C531C2 /* LMS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E68F04482C7F557D00C531C2 /* LMS.xcdatamodeld */; };
 		E6CF83C72C858FE70069DDBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CF83C62C858FE70069DDBC /* Assets.xcassets */; };
+		E6E8DA1E2C8D8CB900F2AE34 /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E8DA1D2C8D8CB900F2AE34 /* AnalyticsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E62D99452C8D883D009337D3 /* LibrarianDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrarianDashboardView.swift; sourceTree = "<group>"; };
+		E62D99472C8D8859009337D3 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		E62D99492C8D8879009337D3 /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		E62D994B2C8D8899009337D3 /* LibrarianSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrarianSection.swift; sourceTree = "<group>"; };
+		E62D994D2C8D88AF009337D3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E62D994F2C8D88C2009337D3 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		E62D99512C8D892E009337D3 /* BooksManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksManagementView.swift; sourceTree = "<group>"; };
+		E62D99532C8D896E009337D3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E62D99552C8D8985009337D3 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
+		E62D99572C8D8A39009337D3 /* UserManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManagement.swift; sourceTree = "<group>"; };
+		E62D995B2C8D8B73009337D3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E68F043A2C7F557C00C531C2 /* LMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68F043D2C7F557C00C531C2 /* LMSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMSApp.swift; sourceTree = "<group>"; };
-		E68F043F2C7F557C00C531C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E68F043F2C7F557C00C531C2 /* ExtraContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraContent.swift; sourceTree = "<group>"; };
 		E68F04442C7F557D00C531C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E68F04462C7F557D00C531C2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E68F04492C7F557D00C531C2 /* LMS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LMS.xcdatamodel; sourceTree = "<group>"; };
 		E6CF83C62C858FE70069DDBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6E8DA1D2C8D8CB900F2AE34 /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +88,19 @@
 			isa = PBXGroup;
 			children = (
 				E68F043D2C7F557C00C531C2 /* LMSApp.swift */,
-				E68F043F2C7F557C00C531C2 /* ContentView.swift */,
+				E68F043F2C7F557C00C531C2 /* ExtraContent.swift */,
+				E6E8DA1D2C8D8CB900F2AE34 /* AnalyticsView.swift */,
+				E62D995B2C8D8B73009337D3 /* SettingsView.swift */,
+				E62D99572C8D8A39009337D3 /* UserManagement.swift */,
+				E62D99452C8D883D009337D3 /* LibrarianDashboardView.swift */,
+				E62D99472C8D8859009337D3 /* Sidebar.swift */,
+				E62D99492C8D8879009337D3 /* MainContentView.swift */,
+				E62D994B2C8D8899009337D3 /* LibrarianSection.swift */,
+				E62D994D2C8D88AF009337D3 /* DashboardView.swift */,
+				E62D994F2C8D88C2009337D3 /* GridView.swift */,
+				E62D99512C8D892E009337D3 /* BooksManagementView.swift */,
+				E62D99532C8D896E009337D3 /* Models.swift */,
+				E62D99552C8D8985009337D3 /* BlobView.swift */,
 				E6CF83C62C858FE70069DDBC /* Assets.xcassets */,
 				E68F04462C7F557D00C531C2 /* Persistence.swift */,
 				E68F04482C7F557D00C531C2 /* LMS.xcdatamodeld */,
@@ -128,7 +164,6 @@
 			);
 			mainGroup = E68F04312C7F557C00C531C2;
 			packageReferences = (
-				E632E2C52C858C1400252B6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = E68F043B2C7F557C00C531C2 /* Products */;
 			projectDirPath = "";
@@ -156,10 +191,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62D994C2C8D8899009337D3 /* LibrarianSection.swift in Sources */,
+				E62D99542C8D896E009337D3 /* Models.swift in Sources */,
 				E68F044A2C7F557D00C531C2 /* LMS.xcdatamodeld in Sources */,
 				E68F04472C7F557D00C531C2 /* Persistence.swift in Sources */,
-				E68F04402C7F557C00C531C2 /* ContentView.swift in Sources */,
+				E62D995C2C8D8B73009337D3 /* SettingsView.swift in Sources */,
+				E62D99502C8D88C2009337D3 /* GridView.swift in Sources */,
+				E62D99462C8D883D009337D3 /* LibrarianDashboardView.swift in Sources */,
+				E62D994A2C8D8879009337D3 /* MainContentView.swift in Sources */,
+				E6E8DA1E2C8D8CB900F2AE34 /* AnalyticsView.swift in Sources */,
+				E62D99582C8D8A39009337D3 /* UserManagement.swift in Sources */,
+				E68F04402C7F557C00C531C2 /* ExtraContent.swift in Sources */,
+				E62D994E2C8D88AF009337D3 /* DashboardView.swift in Sources */,
+				E62D99482C8D8859009337D3 /* Sidebar.swift in Sources */,
+				E62D99522C8D892E009337D3 /* BooksManagementView.swift in Sources */,
 				E68F043E2C7F557C00C531C2 /* LMSApp.swift in Sources */,
+				E62D99562C8D8985009337D3 /* BlobView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,17 +412,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		E632E2C52C858C1400252B6D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		E68F04482C7F557D00C531C2 /* LMS.xcdatamodeld */ = {

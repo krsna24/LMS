@@ -9,11 +9,12 @@ import SwiftUI
 
 @main
 struct LMSApp: App {
+    @AppStorage("isDarkMode") private var isDarkMode: Bool = false
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            LibrarianDashboardView()
+            LibrarianDashboardView().preferredColorScheme(isDarkMode ? .dark : .light)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
